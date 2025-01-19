@@ -166,3 +166,29 @@ curl -SL -O  https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/
 ```bash
 curl -SL -O  https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/sherpa-onnx-paraformer-en-2024-03-09.tar.bz2
 ```
+
+
+
+
+
+
+### Update
+
+default 
+
+first 
+```
+mkdir -p modeles/silero_vad
+
+```
+cd   modeles/silero_vad and  execute :
+```
+curl -SL -O https://github.com/snakers4/silero-vad/raw/master/src/silero_vad/data/silero_vad.onnx
+```
+
+then :
+```
+curl -SL -O https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/sherpa-onnx-sense-voice-zh-en-ja-ko-yue-2024-07-17.tar.bz2
+```
+
+and unzip it to  ./models 
